@@ -16,7 +16,7 @@ public class Resources {
      * @param name ścieżka do pliku, np. "images/file.jpg"
      * @return {@code Image} - pobrany plik 
      */
-    public final static Image getImage(String name) {
+    public static Image getImage(String name) {
         return Toolkit.getDefaultToolkit().getImage(Thread.currentThread().getContextClassLoader().getResource(name));
     } 
 }
