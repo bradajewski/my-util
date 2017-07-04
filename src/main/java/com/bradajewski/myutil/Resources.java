@@ -10,8 +10,7 @@ import java.awt.Toolkit;
 public class Resources {
     
     /**
-     * Metoda umożliwiająca dostęp do obrazów dołączanych przez Maven z folderu 
-     * src/main/resources do archiwum .jar.
+     * Metoda umożliwiająca dostęp do obrazów dołączanych z folderu src/main/resources
      * 
      * @param name ścieżka do pliku, np. "images/file.jpg"
      * @return {@code Image} - pobrany plik 
