@@ -5,7 +5,7 @@ import java.awt.Toolkit;
 
 /**
  * Klasa zawierająca statyczne metody ułatwiające pracę z zasobami w Maven.
- * @author PRO-WIZJA
+ * @author Bogumił Radajewski
  */
 public class Resources {
     
