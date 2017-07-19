@@ -15,8 +15,8 @@ public abstract class JMenuAction extends AbstractAction {
      * Domyślny konstruktor
      * @param name nazwa akcji
      * @param image ikona akcji
-     * @param accelerator wartość odpowiadająca klawiszowi akceleratora
-     * @param description opis jaki ma się pojawiać dla obiektów wykorzystujących akcję
+     * @param accelerator wybrany klawisz akceleratora (np. {@code KeyEvent.VK_O} dla klawisza "O")
+     * @param description tekst jaki ma się pojawiać w podpowiedzi dla obiektów wykorzystujących tę akcję
      */
     JMenuAction(String name, Icon image, int accelerator, String description) {
         super(name, image);
